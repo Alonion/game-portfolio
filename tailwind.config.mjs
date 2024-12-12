@@ -11,7 +11,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      textColor: {
+        DEFAULT: '#ffffff',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+    require('@tailwindcss/typography')
+  ],
 };
