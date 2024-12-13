@@ -11,10 +11,10 @@ export default async function Home() {
         <div key={game.id} className="max-w-sm rounded overflow-hidden shadow-lg">
           <div className="relative w-full h-64">
             <Image
-              className="object-cover"
+              className="object-cover w-full h-full"
               src={game.coverImage}
               alt={game.title}
-              layout="fill"
+              fill
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>

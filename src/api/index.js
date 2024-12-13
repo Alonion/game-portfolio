@@ -2,10 +2,12 @@ import matter from 'gray-matter';
 import fs from 'fs';
 import { join } from 'path';
 
-const getDir = (path) => join(process.cwd(), path);
+const getDir = (contentPath) => {
+  return join(process.cwd(), 'src/content', contentPath);
+};
 
-const gamesDirectory = getDir('src/content/games');
-const privacyDirectory = getDir('src/content/privacy-policy');
+const gamesDirectory = getDir('games');
+const privacyDirectory = getDir('privacy-policy');
 
 export function getGameBySlug(slug) {
   return getItemBySlug(slug, gamesDirectory);
