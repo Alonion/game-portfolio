@@ -11,7 +11,8 @@ async function getPolicy(slug) {
 }
 
 export default async function PrivacyPolicyDetails({ params }) {
-  const policy = await getPolicy(params.slug);
+  const { slug } = await params;
+  const policy = await getPolicy(slug);
 
   return (
     <div className="container mx-auto px-12 py-10 max-w-7xl space-y-12 text-white">

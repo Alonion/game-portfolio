@@ -13,7 +13,8 @@ async function getGame(slug) {
 }
 
 export default async function GameDetails({ params }) {
-  const game = await getGame(params.slug);
+  const { slug } = await params;
+  const game = await getGame(slug);
 
   return (
     <div className="container mx-auto px-12 py-10 max-w-7xl space-y-12 text-white">
@@ -22,10 +23,10 @@ export default async function GameDetails({ params }) {
       {/* Cover Image */}
       <div className="relative w-full h-[30rem] shadow-lg rounded-xl overflow-hidden">
         <Image
-          className="object-cover"
+          className="object-cover w-full h-full"
           src={game.coverImage}
           alt={game.title}
-          layout="fill"
+          fill
           sizes="(max-width: 768px) 100vw, 75vw"
           priority
         />
@@ -154,7 +155,8 @@ export default async function GameDetails({ params }) {
                 className="object-cover"
                 src={image}
                 alt={`${game.title} Screenshot ${index + 1}`}
-                layout="fill"
+                fill
+                sizes="100vw"
               />
             </div>
           ))}
