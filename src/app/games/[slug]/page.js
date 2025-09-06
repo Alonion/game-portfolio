@@ -128,7 +128,7 @@ export default async function GameDetails({ params }) {
       </section>
       <section className="space-y-4">
         <h2 className="text-3xl font-semibold">Support</h2>
-        <a href="mailto:jerga99@gmail.com"
+        <a href="mailto:alonzayger@gmail.com"
           className="block text-blue-400 hover:text-blue-200 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
