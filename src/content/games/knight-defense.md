@@ -1,8 +1,8 @@
 ---
 id: "2"
-title: "Knight Defense"
-description: "Defend your King from relentless waves of orc enemies in Knight Defense! Gather resources, build defenses, train an army, and survive to victory."
-slug: "knight-defense"
+title: "Knights vs Orcs"
+description: "Defend your King from relentless waves of orc enemies in Knights vs Orcs! Gather resources, build defenses, train an army, and survive to victory."
+slug: "knights-vs-orcs"
 author: "Alon Zayger"
 video: "https://www.youtube.com/watch?v=m0GHS-HV1RI" 
 coverImage: "https://thrangra.sirv.com/KD_Cover.jpeg"
@@ -33,7 +33,7 @@ appStoreId: "2"
 playStoreId: "3"
 ---
 
-**Knight Defense** is a strategic 2D RTS mobile game where your goal is clear—protect your King at all costs. Waves of orc enemies are coming, and only your strategy and courage can decide the outcome.
+**Knights vs Orcs** is a strategic 2D RTS mobile game where your goal is clear—protect your King at all costs. Waves of orc enemies are coming, and only your strategy and courage can decide the outcome.
 
 ### **Game Controls**
 
@@ -44,7 +44,7 @@ Everything you need to command your forces is right at your fingertips.
 
 ### **Gameplay Overview**
 
-In Knight Defense, you must balance resource gathering, building defenses, and training units to withstand enemy assaults. Losing your King means defeat—but if you hold strong against every wave, victory is yours.
+In Knights vs Orcs, you must balance resource gathering, building defenses, and training units to withstand enemy assaults. Losing your King means defeat—but if you hold strong against every wave, victory is yours.
 
 Key mechanics:
 - **Resources**:  
@@ -71,7 +71,7 @@ Face two types of orc enemies, each with unique threats:
 - **Defeat**: If your King is slain, the game ends in failure.  
 - **Victory**: Survive all enemy waves and eliminate every orc to secure your kingdom’s future.  
 
-### **Why Play Knight Defense?**
+### **Why Play Knights vs Orcs?**
 
 - **Strategic Gameplay**: Balance resources, units, and defenses.  
 - **Tactical Battles**: Outsmart goblins and demolishers with clever positioning.  
